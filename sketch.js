@@ -26,9 +26,6 @@ function draw() {
 
   Engine.update(engine);
 
-  snow1.display();
-  snow2.display();
-
   if (frameCount % 30 === 0) {
     snows = createSprite(random(100, 700), 0, 50, 50);
     snows.scale = 0.1;
